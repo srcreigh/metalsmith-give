@@ -6,13 +6,15 @@ Use globbing patterns to give metadata to specific files.
 
 #### CLI
 ```json
-"plugins": {
-  "metalsmith-give": {
-    "about/*": {
-      "here": "about"
-    },
-    "blog/*": {
-      "here": "blog"
+{
+  "plugins": {
+    "metalsmith-give": {
+      "about/*": {
+        "here": "about"
+      },
+      "blog/*": {
+        "here": "blog"
+      }
     }
   }
 }
